@@ -111,7 +111,7 @@ Navigation bar
 Banner
 ************************************/
 .banner{
-	background: url('../img/prueba2.jpg') no-repeat center top;
+	background: url('../img/prueba4.jpg') no-repeat center top;
     background-size: cover;
 	min-height: 580px;
     position: relative;
@@ -216,6 +216,12 @@ Banner
 }
 .big-text{
     font-size: 48px;
+    font-family: 'Bevan', cursive;
+}
+
+.small-text{
+    font-size: 24px;
+    font-family: 'Dosis', cursive;
 }
 
 .big-text:hover{
@@ -226,13 +232,6 @@ Banner
     color: #5fcf80;
 }
 
-.small-text, .big-text {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.small-text{
-    font-size: 24px;
-}
 .get-quote {
     font-weight: bold;
 }
@@ -320,7 +319,6 @@ h2{
 .orga-stru p {
     font-size: 20px;
     color: white;
-    font-weight: normal;
     line-height: 20px;
     padding-top: 15px;
     text-transform: uppercase;
@@ -345,6 +343,7 @@ h2{
 }
 
 h3.det-txt {
+
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
@@ -365,7 +364,8 @@ p.det-p {
     font-size: 1em;
 }
 
-.drosolca-span{
+.drosolca-span {
+	font-family: 'Luckiest Guy', cursive;
     color: #f4ee42;
     font-size: 40px;
     font-weight: bold;
@@ -740,11 +740,18 @@ Responsive media queries
     .price-table .pricing-head h4 {
     font-size: 18px;
     }
+    .drosolca-span {
+        font-size: 40px;
+    }
 }
 @media (min-width: 451px) and (max-width: 768px) {
     .ser-text {
     font-size: 20px;
     }
+    .drosolca-span {
+        font-size: 40px;
+    }
+
     .service-box, .feature-info{
         margin-bottom: 30px;
     }
@@ -763,6 +770,9 @@ Responsive media queries
 }
 @media (min-width: 20px) and (max-width: 450px) {
 
+    .drosolca-span {
+        font-size: 35px;
+    }
     .bg-color .container .row div img {
         width: 300px;
         margin-bottom: 100px;
@@ -786,7 +796,7 @@ Responsive media queries
     margin-bottom: 20px;
     }
     .orga-stru i {
-    font-size: 92px;
+    font-size: 52px;
     }
     .orga-stru {
     padding: 5px 5px 15px 5px;
