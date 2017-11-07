@@ -24,6 +24,11 @@ table {
 .section-padding{
 	padding: 60px 0px;
 }
+
+.googlemap {
+	width: 600px;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: Open Sans, sans-serif;
     font-weight: 700;
@@ -114,6 +119,9 @@ Banner
 	background-color: RGBA(12, 11, 11, 0.82);
 	min-height: 580px;
     margin-top: -25px;
+}
+
+.googlemap {
 }
 
 .comunicate {
@@ -744,6 +752,9 @@ Responsive media queries
     .drosolca-span {
         font-size: 40px;
     }
+    .googlemap {
+    	width: 200px;
+	}
 }
 @media (min-width: 451px) and (max-width: 768px) {
     .ser-text {
